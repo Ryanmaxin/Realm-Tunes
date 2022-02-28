@@ -69,8 +69,6 @@ try:
       else:
         loop_current=False
 
-
-
   async def convert_duration(duration):
     minutes = str(math.floor(duration/60))
     seconds = str(duration%60)
