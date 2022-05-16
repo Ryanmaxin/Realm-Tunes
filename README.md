@@ -1,38 +1,44 @@
 ## Realm Tunes:
 
-A Discord music bot built with the Discord.py API. The bot includes the following commands:
+A Discord music bot built with the Discord.py API.
 
-#### Current Sorts include:
+![5bc328b0572704e039254a91299d3ac7](https://user-images.githubusercontent.com/90675771/168570928-f58f4841-9915-4859-9213-58645c775cbb.png)
 
-Bubble Sort
+#### Current Commands:
 
-Selection Sort
+**clear:**        Cancels current track and clears the queue
 
-Insertion Sort
+**credits:**        Displays credits
 
-Merge Sort
+**displayqueue:**   Displays the current queue,aswell as the currently playing song
 
-Heap Sort
+**help:**           Shows this message
 
-Quick Sort
+**join:**           Makes the bot join your current voice channel. It won't play music yet unless you use the play command
 
-![Sorting Visualizer 1](https://user-images.githubusercontent.com/90675771/167058861-ea13e568-8557-4e02-bad5-f998004cfd43.png)
+**leave:**          Disconnects the bot from the current voice channel
 
-*Default Website Layout*
+**play:**           Plays music from YouTube. Can take a url or a song title. Also brings Realm Tunes to the current channel
 
-![Sorting Visualizer 2](https://user-images.githubusercontent.com/90675771/167058865-ad322867-1a44-48d5-b880-056461d9680e.png)
+**repeat:**         Loops the queue playlist
 
-*Picture during a merge sort*
+**shutdown:**       Shuts down the bot. Can only be used by Rybot
 
-### How to Run
+**skip:**           Skips the current song
 
-Simply go to: https://ryanmaxin.github.io/Sorting-Algorithm-Visualizer/
+**toggle:**         Toggles on or off the current music playing 
+
+![f403670e7e9de1b0eac3b0de3b2b3176](https://user-images.githubusercontent.com/90675771/168570989-92f782ae-70b9-45af-a693-2279d5723f23.gif)
+
+*Using the play command search feature*
+
+![9ea6beb4c619a8962127559a40398035](https://user-images.githubusercontent.com/90675771/168570999-18fa7c83-922d-4026-b4b0-3239ac255db6.gif)
+
+*Realm Tunes playing music*
+
+### Hosted 24/7 on Heroku
 
 ## Reflection
 
-This was a on-off project I worked on for over two months in my free time in my first term at the University of Waterloo. The main goal of this project was to help me build and solidify knowledge of many of the most common sorting algorithms.
-
-Ultimitely I found myself also learning a ton about the call stack, as I had to use asynchronous JavaScript extensively to properly animate the sorting. This project was also the first website I attempted to create a professional, visually pleasing user interface. I personally planned out the design and spent countless hours making sure the website followed this plan and stayed responsive for all screen sizes. 
-
-I spent a lot more time then I ideally would have liked styling the Material UI elements (it was my first time implementing them). I also had difficulty scaling the text to fit the "about" div as screen sizes grew or shrank. In the end I was able to fix all of these issues and I gained experience with how to deal with them for the future. Overall I am very happy how this project turned out, and hope any one reading this can get some value out of too!
+This project was created over the course of a month so that my friends and I could listen to music in Discord voice channels
 
