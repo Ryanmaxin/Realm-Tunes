@@ -1,3 +1,5 @@
+**This project is discontinued**
+
 ## Realm Tunes:
 
 A Discord music bot built with the Discord.py API.
